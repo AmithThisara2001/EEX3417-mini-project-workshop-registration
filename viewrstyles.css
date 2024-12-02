@@ -1,0 +1,38 @@
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light gray border for rows */
+}
+
+th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+/* Row Hover Effect */
+tr:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+}
+
+/* No Results Message */
+.no-results {
+    text-align: center; /* Center align no results message */
+    font-size: 18px; /* Larger font size for emphasis */
+    margin-top: 20px; /* Space above message */
+}

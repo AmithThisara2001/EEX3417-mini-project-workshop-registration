@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+}
+
+/* Container Styles */
+.container {
+    max-width: 400px; /* Maximum width of container */
+    margin: auto; /* Center align container */
+    padding: 20px; /* Padding inside container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: white; /* White background for container */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+label {
+    margin-bottom: 5px; /* Space below labels */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Error Message Style */
+.error {
+    color: red; /* Red color for error messages */
+}
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+}
+
+/* Container Styles */
+.container {
+    max-width: 600px; /* Maximum width of container */
+    margin: auto; /* Center align container */
+    padding: 20px; /* Padding inside container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: white; /* White background for container */
+}
+
+/* Link Styles */
+.nav-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+}
+
+.nav-links a {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    padding: 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners for button */
+    text-align: center; /* Center align text */
+    margin-bottom: 10px; /* Space between buttons */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.nav-links a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Logout Button Style (optional, if different) */
+.logout-button {
+    background-color: #dc3545; /* Red button color for Logout */
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover for Logout button */
+}

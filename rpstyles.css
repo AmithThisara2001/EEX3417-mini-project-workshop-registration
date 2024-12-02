@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    background-color: #f0f8ff; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around the body */
+}
+
+/* Header Styles */
+h1 {
+    color: #007bff; /* Primary color for the heading */
+    text-align: center; /* Center align heading */
+}
+
+h2 {
+    color: #0056b3; /* Darker blue for subheading */
+    margin-top: 30px; /* Space above subheading */
+}
+
+/* Form Styles */
+form {
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    padding: 20px; /* Padding inside the form */
+    max-width: 400px; /* Maximum width of the form */
+    margin: auto; /* Center the form horizontally */
+}
+
+/* Label Styles */
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input field */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: calc(100% - 22px); /* Full width minus padding */
+    padding: 10px; /* Padding inside input fields */
+    margin-bottom: 15px; /* Space below input fields */
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color for button */
+    border: none; /* Remove default border */
+    padding: 10px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
